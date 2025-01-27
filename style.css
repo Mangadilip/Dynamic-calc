@@ -1,33 +1,32 @@
-.main_div{
-    border: 2px solid black;
-    width: 300px;
-    padding: 20px; 
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    
+.main_div {
+  border: 2px solid black;
+  width: 300px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
-button{
-    background-color: gray;
-    width: 72px;
-    height: 50px;
-    border-color: transparent;
-    border-radius: 20px;
-    
-    
-      
+button {
+  background-color: gray;
+  width: 72px;
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
 }
-input{
-    width: 257px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: antiquewhite;
-    
-    
+input {
+  width: 257px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: antiquewhite;
 }
-.main_div div{
-    margin-top: 5PX;
+.main_div div {
+  margin-top: 5px;
+  
 }
-
-
-
+button:hover{
+    background-color:wheat;
+}
+button:active{
+    background-color:orange;
+}
